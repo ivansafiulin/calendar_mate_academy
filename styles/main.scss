@@ -21,6 +21,7 @@ div {
 }
 
 .group {
+  position: relative;
   div {
     @include cell-property($width-cell,$height-cell,$background-cell);
     bottom: 0;
