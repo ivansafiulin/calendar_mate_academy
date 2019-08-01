@@ -3,9 +3,6 @@
   flex-wrap: wrap;
 }
 
-.calendar-mon {
-  position: relative;
-}
 .calendar-mon::before {
   position: absolute;
   content: "Mon";
@@ -14,9 +11,6 @@
   top: -42px;
 }
 
-.calendar-tue {
-  position: relative;
-}
 .calendar-tue::before {
   position: absolute;
   content: "Tue";
@@ -25,9 +19,6 @@
   top: -42px;
 }
 
-.calendar-wed {
-  position: relative;
-}
 .calendar-wed::before {
   position: absolute;
   content: "Wed";
@@ -36,9 +27,6 @@
   top: -42px;
 }
 
-.calendar-thu {
-  position: relative;
-}
 .calendar-thu::before {
   position: absolute;
   content: "Thu";
@@ -47,9 +35,6 @@
   top: -42px;
 }
 
-.calendar-fri {
-  position: relative;
-}
 .calendar-fri::before {
   position: absolute;
   content: "Fri";
@@ -58,9 +43,6 @@
   top: -42px;
 }
 
-.calendar-sat {
-  position: relative;
-}
 .calendar-sat::before {
   position: absolute;
   content: "Sat";
@@ -69,9 +51,6 @@
   top: -42px;
 }
 
-.calendar-sun {
-  position: relative;
-}
 .calendar-sun::before {
   position: absolute;
   content: "Sun";
@@ -100,6 +79,9 @@ div {
   border-radius: 8px;
 }
 
+.group {
+  position: relative;
+}
 .group div {
   width: 100px;
   height: 100px;

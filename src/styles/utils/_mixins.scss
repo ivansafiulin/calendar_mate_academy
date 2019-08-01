@@ -23,14 +23,11 @@
 }
 
 @mixin calendar-name-day($calendar-day,$calendar-name) {
-  #{$calendar-day} {
-    position: relative;
-    &::before {
-      position: absolute;
-      content: $calendar-name;
-      font-size: $font-size-text;
-      left: 25px;
-      top: -42px;
-    }
+  #{$calendar-day}::before {
+    position: absolute;
+    content: $calendar-name;
+    font-size: $font-size-text;
+    left: 25px;
+    top: -42px;
   }
 }
