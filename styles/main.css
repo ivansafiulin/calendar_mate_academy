@@ -1,0 +1,126 @@
+.calendar {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.calendar-mon {
+  position: relative;
+}
+.calendar-mon::before {
+  position: absolute;
+  content: "Mon";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-tue {
+  position: relative;
+}
+.calendar-tue::before {
+  position: absolute;
+  content: "Tue";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-wed {
+  position: relative;
+}
+.calendar-wed::before {
+  position: absolute;
+  content: "Wed";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-thu {
+  position: relative;
+}
+.calendar-thu::before {
+  position: absolute;
+  content: "Thu";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-fri {
+  position: relative;
+}
+.calendar-fri::before {
+  position: absolute;
+  content: "Fri";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-sat {
+  position: relative;
+}
+.calendar-sat::before {
+  position: absolute;
+  content: "Sat";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+.calendar-sun {
+  position: relative;
+}
+.calendar-sun::before {
+  position: absolute;
+  content: "Sun";
+  font-size: 30px;
+  left: 25px;
+  top: -42px;
+}
+
+body {
+  background-color: #eee;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  border: 4px solid black;
+  border-radius: 8px;
+}
+
+.group div {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  bottom: 0;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 1px 1px;
+  transition: background-color 0.5s linear, bottom 0.5s linear;
+}
+.group div:hover {
+  cursor: pointer;
+  position: relative;
+  background-color: pink;
+  bottom: 20px;
+}
+
+.calendar-31 {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */

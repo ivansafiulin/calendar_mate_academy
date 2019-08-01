@@ -1,1 +1,22 @@
-$c-gray: #eee;
+$background-page: #eee;
+$background-cell: #eee;
+$background-cell-hover: pink;
+
+$upper-cell-hover: 20px;
+
+$border-color-cell: black;
+$border-color-calendar: black;
+$border-hickness-calendar: 8px;
+$border-hickness-cell: 1px;
+$border-hickness-calendar: 4px;
+
+$border-radius-calendar: 8px;
+$font-size-text: 30px;
+$width-cell: 100px;
+$height-cell: 100px;
+
+$number-calendar-day: 30;
+
+$list_calendar: ".calendar-mon", ".calendar-tue", ".calendar-wed",
+  ".calendar-thu", ".calendar-fri", ".calendar-sat",".calendar-sun";
+$list_day: "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun";

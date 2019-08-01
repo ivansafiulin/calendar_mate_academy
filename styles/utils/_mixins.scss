@@ -1,6 +1,36 @@
-@mixin hover($_property, $_toValue) {
-  transition: #{$_property} 0.3s;
+
+@mixin border-for-calendar {
+  border: $border-hickness-calendar solid $border-color-calendar;
+  border-radius: $border-radius-calendar;
+}
+
+@mixin cell-hover($background-color-property, $bottom-upper) {
+  transition: #{$background-color-property} 0.5s linear,
+    #{$bottom-upper} 0.5s linear;
+
   &:hover {
-    #{$_property}: $_toValue;
+    cursor: pointer;
+    position: relative;
+    #{$background-color-property}: $background-cell-hover;
+    #{$bottom-upper}: $upper-cell-hover;
+  }
+}
+
+@mixin cell-property($width_property,$height_property,$background-cell-block) {
+  width: $width_property;
+  height: $height_property;
+  background-color: $background-cell-block;
+}
+
+@mixin calendar-name-day($calendar-day,$calendar-name) {
+  #{$calendar-day} {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: $calendar-name;
+      font-size: $font-size-text;
+      left: 25px;
+      top: -42px;
+    }
   }
 }
