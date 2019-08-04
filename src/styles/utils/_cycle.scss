@@ -1,3 +1,0 @@
-@for $i from 1 to length($list_calendar)+1 {
-  @include calendar-name-day(nth($list_calendar,$i), nth($list_day,$i));
-}

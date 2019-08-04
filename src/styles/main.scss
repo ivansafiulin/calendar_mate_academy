@@ -4,36 +4,21 @@ body {
   background-color: $background-page;
 }
 
-div {
-  box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 .calendar {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(7, $width-cell);
+  grid-template-rows: repeat(5, $height-cell);
+  @extend %content-center;
   @include border-for-calendar;
-  @extend %flex-inline-style;
 }
 
-.group {
-  position: relative;
-  div {
-    @include cell-property($width-cell,$height-cell,$background-cell);
-    bottom: 0;
-    border: $border-hickness-cell solid $border-color-cell;
-    font-size: $font-size-text;
-    text-align: center;
-    line-height: $height-cell;
-    margin: margins(0,1,1);
-    @include cell-hover(background-color,bottom);
-  }
-}
-
-.calendar-31 {
-  display: display_property($number-calendar-day);
+.calendar div {
+  line-height: $height-cell;
+  text-align: center;
+  font-size: $font-size-text;
+  background-color: $background-cell;
+  display: none;
+  border: $border-hickness-cell solid $border-color-cell;
+  @include cell-hover(background-color,bottom);
 }
