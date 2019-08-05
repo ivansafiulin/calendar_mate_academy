@@ -5,34 +5,6 @@
   transform: translate(-50%, -50%);
 }
 
-.calendar-28 div:nth-child(1)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(2)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(3)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(4)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(5)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(6)::before {
-  content: "mon";
-}
-
-.calendar-28 div:nth-child(7)::before {
-  content: "mon";
-}
-
 .calendar-28 div:nth-child(1)::after {
   content: "1";
 }
@@ -255,34 +227,6 @@
 
 .calendar-28 div:nth-child(28) {
   display: block;
-}
-
-.calendar-29 div:nth-child(1)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(2)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(3)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(4)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(5)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(6)::before {
-  content: "mon";
-}
-
-.calendar-29 div:nth-child(7)::before {
-  content: "mon";
 }
 
 .calendar-29 div:nth-child(1)::after {
@@ -515,34 +459,6 @@
 
 .calendar-29 div:nth-child(29) {
   display: block;
-}
-
-.calendar-30 div:nth-child(1)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(2)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(3)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(4)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(5)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(6)::before {
-  content: "mon";
-}
-
-.calendar-30 div:nth-child(7)::before {
-  content: "mon";
 }
 
 .calendar-30 div:nth-child(1)::after {
@@ -783,34 +699,6 @@
 
 .calendar-30 div:nth-child(30) {
   display: block;
-}
-
-.calendar-31 div:nth-child(1)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(2)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(3)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(4)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(5)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(6)::before {
-  content: "mon";
-}
-
-.calendar-31 div:nth-child(7)::before {
-  content: "mon";
 }
 
 .calendar-31 div:nth-child(1)::after {
@@ -1118,3 +1006,5 @@ body {
   background-color: pink;
   bottom: 20px;
 }
+
+/*# sourceMappingURL=main.css.map */
