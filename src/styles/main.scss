@@ -1,7 +1,24 @@
 @import "utils";
-@import "fonts";
-@import "typography";
 
 body {
-  background: $c-gray;
+  background-color: $background-page;
+}
+
+.calendar {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(7, $width-cell);
+  grid-template-rows: repeat(5, $height-cell);
+  @extend %content-center;
+  @include border-for-calendar;
+}
+
+.calendar div {
+  line-height: $height-cell;
+  text-align: center;
+  font-size: $font-size-text;
+  background-color: $background-cell;
+  display: none;
+  border: $border-hickness-cell solid $border-color-cell;
+  @include cell-hover(background-color,bottom);
 }
